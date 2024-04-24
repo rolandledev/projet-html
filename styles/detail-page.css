@@ -1,0 +1,45 @@
+main {
+    display: grid;
+    font-family:'Lato', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    display: flex;
+    color: #0F1B88;
+    font-size: 38px;
+    font-weight: 900;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+h2 {
+    color: #0F1B88;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 3%;
+}
+
+.article {
+    align-items: center;
+    display: flex;
+    margin: 2% 5%;
+}
+
+img {
+    margin: 2% 5%;
+    width: 40%;
+}
+
+.ellipse {
+    background-color: #F1EA44;
+    border-radius: 50%;
+    clip-path: ellipse(50% 100%);
+}
+
+.article-text {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    margin: 2% 5%;
+    padding: 20px;
+}
