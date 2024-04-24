@@ -1,4 +1,16 @@
 body {
-	background-color: pink;
+	background-color: white;
 }
+
+h1,
+p {
+	margin-bottom: 20px;
+}
+
+h1,
+.citation {
+	text-align: center;
+}
+
+
 
