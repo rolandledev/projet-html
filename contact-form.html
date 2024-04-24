@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/contact-form.css">
+</head>
+<body>
+    <main>
+
+        <div class="title-contact">
+            <h2 class="titre">Voulez vous nous envoyer un message ?</h2>
+        </div>
+        
+        <form action="" method="post" id="myform">
+            <div class="contact">
+                <ul>
+                    <li><label for="Last-name">Nom :</label></li>
+                    <li><input id="Last-name" type="text" placeholder="Nom" /></li>
+                    
+                    <li><label for="First-name">Prénom :</label></li>
+                    <li><input id="First-name" type="text" placeholder="Prénom" /></li>
+                    
+                    <li><label for="email">Email :</label></li>
+                    <li><input id="email" type="email" placeholder="Email" /></li>
+                    
+                    <li><label for="telephone">Téléphone :</label></li>
+                    <li><input id="telephone" type="tel" placeholder="Téléphone" /></li>
+                    
+                    <li><label for="message">Message:</label></li>
+                    <li><textarea id="message" name="message" placeholder="Ecrivez votre message ici" rows="4" required></textarea></li>
+                    
+                    <li><input id="send" type="submit" value="Envoyer" /></li>
+                
+                </ul>
+            </div>
+        </form>
+    </main>
+    <script src="scripts/contact-form.js"></script>
+</body>
+</html>
