@@ -1,4 +1,53 @@
 body {
-	background-color: pink;
+	background-color: white;
 }
+
+h1,
+p,
+section {
+	margin-bottom: 20px;
+}
+
+h1,
+.citation {
+	text-align: center;
+}
+
+p {
+	padding: 0 50px;
+}
+
+main {
+	
+	padding: 20px;
+	height: 500px;
+	
+}
+
+#welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: url("../images/abstract-background.jpg") no-repeat fixed center;
+	height: 300px;
+}
+
+#events {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #d9d9d9;
+}
+
+#events > article {
+	display: flex;
+	justify-content: space-between;
+	width: 450px;
+}
+
+#events > article img {
+	width: 200px;
+}
+
 
