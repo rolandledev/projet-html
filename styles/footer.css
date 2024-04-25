@@ -6,10 +6,10 @@ footer {
 	align-items: center;
 	height: 50px;
 	padding: 30px;
-    margin-right: 0px;
     position: fixed;
     left: 0;
     bottom: 0;
+    right: 0;
     width: 100%;
     margin-bottom: 0px;
 }
