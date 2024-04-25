@@ -1,9 +1,9 @@
 
 body {
 	background-color: white;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto;
 }
 
 h1,
@@ -15,6 +15,10 @@ section {
 h1,
 .citation {
 	text-align: center;
+}
+
+#header {
+	height: 200px;
 }
 
 main > p {
@@ -57,5 +61,22 @@ main {
 	width: 200px;
 }
 
+.view-more {
+	text-align: right;
+	font-weight: bold;
+	
+}
 
+.view-more  > a {
+	color: black;
+	text-decoration: none;
+}
+
+.view-more  > a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	height: 50px;
+}
 
