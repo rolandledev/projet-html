@@ -12,23 +12,24 @@
     <main>
 
         <div class="title-contact">
-            <h2 class="titre">Voulez vous nous envoyer un message ?</h2>
+            <h2>Une question ? un conseil ?</h2>
+            <h1>Contactez-Nous</h1>
         </div>
         
         <form action="" method="post" id="myform">
             <div class="contact">
                 <ul>
                     <li><label for="Last-name">Nom :</label></li>
-                    <li><input id="Last-name" type="text" placeholder="Nom" /></li>
+                    <li><input id="Last-name" type="text" placeholder="Nom" required /></li>
                     
                     <li><label for="First-name">Prénom :</label></li>
-                    <li><input id="First-name" type="text" placeholder="Prénom" /></li>
+                    <li><input id="First-name" type="text" placeholder="Prénom" required /></li>
                     
                     <li><label for="email">Email :</label></li>
-                    <li><input id="email" type="email" placeholder="Email" /></li>
+                    <li><input id="email" type="email" placeholder="exemple.@gmail.com" required /></li>
                     
                     <li><label for="telephone">Téléphone :</label></li>
-                    <li><input id="telephone" type="tel" placeholder="Téléphone" /></li>
+                    <li><input id="telephone" type="tel" placeholder="+33" required/></li>
                     
                     <li><label for="message">Message:</label></li>
                     <li><textarea id="message" name="message" placeholder="Ecrivez votre message ici" rows="4" required></textarea></li>
