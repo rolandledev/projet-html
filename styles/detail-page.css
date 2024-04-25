@@ -3,13 +3,18 @@ main {
     font-family:'Lato', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1 {
+.page-title {
     display: flex;
+    justify-content: center;
+}
+
+h1 {
     color: #0F1B88;
     font-size: 38px;
     font-weight: 900;
-    justify-content: center;
+    text-align: center;
     margin-top: 3%;
+    max-width: 40%;
 }
 
 h2 {
