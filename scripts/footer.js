@@ -38,3 +38,9 @@ document.querySelectorAll('.button').forEach(button => {
     });
 
 });
+
+const aboutUsBtn = document.getElementById('aboutUs');
+
+aboutUsBtn.addEventListener('click', () => {
+    window.top.location.href = 'nous.html'; 
+  });
