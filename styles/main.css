@@ -1,0 +1,82 @@
+
+body {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto;
+}
+
+h1,
+main > p,
+section {
+	margin-bottom: 20px;
+}
+
+h1,
+.citation {
+	text-align: center;
+}
+
+#header {
+	height: 200px;
+}
+
+main > p {
+	padding: 0 50px;
+}
+
+main {	
+	padding: 20px;
+	
+}
+
+#welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: url("../images/abstract-background.jpg") no-repeat fixed center;
+	height: 300px;
+}
+
+#events {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
+#events > article {
+	margin: 0 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 450px;
+	background-color: #d9d9d9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#events > article img {
+	margin-right: 10px;
+	width: 200px;
+}
+
+.view-more {
+	text-align: right;
+	font-weight: bold;
+	
+}
+
+.view-more  > a {
+	color: black;
+	text-decoration: none;
+}
+
+.view-more  > a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	height: 60px;
+}
+
